@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpSysBase\OpSysBase.csproj" />
+    <ProjectReference Include="..\OpSysMac\OpSysMac.csproj" />
+    <ProjectReference Include="..\OpSysWin\OpSysWin.csproj" />
+  </ItemGroup>
+</Project>
